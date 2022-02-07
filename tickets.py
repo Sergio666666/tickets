@@ -10,10 +10,10 @@ for i in range(1, ticket + 1):
         price.append(1390)
 print(price)
 if ticket > 3:
-     a = int(sum(price) - sum(price)/10)
-     print("your purchase amount is:" , a)
+    a = int(sum(price) - sum(price)/10)
+    print("your purchase amount is:" , a)
 else:
-      a = sum(price)
-      print ("your purchase amount is: ", a)
+     a = sum(price)
+     print ("your purchase amount is: ", a)
 print(price)  
  
